@@ -1,0 +1,34 @@
+.container{
+    background-color: aliceblue;
+    display: flex; /* ikiye bölmek için */
+    
+}
+aside{
+    background-color: brown;
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.picture{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+li a {
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+main{
+    width: 80%;
+    height: 100vh;
+    padding-left: 30px;
+
+}
